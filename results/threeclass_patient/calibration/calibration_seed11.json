@@ -1,0 +1,41 @@
+{
+  "task": "threeclass_patient",
+  "unit": "patient",
+  "n_cal": 202,
+  "n_test": 610,
+  "temperature": 0.6848580837249756,
+  "ece_before": 0.05407824785245911,
+  "ece_after": 0.017484929301977703,
+  "selective": {
+    "accuracy_at_100pct_coverage": 0.9639344262295082,
+    "accuracy_at_95pct_coverage": 0.9827586206896551,
+    "accuracy_at_90pct_coverage": 0.9836065573770492,
+    "accuracy_at_80pct_coverage": 0.9815573770491803
+  },
+  "conformal": {
+    "0.01": {
+      "alpha": 0.01,
+      "qhat": 0.9919785958710451,
+      "coverage": 0.9950819672131147,
+      "mean_set_size": 1.8229508196721311,
+      "singleton_fraction": 0.46885245901639344,
+      "singleton_accuracy": 1.0
+    },
+    "0.05": {
+      "alpha": 0.05,
+      "qhat": 0.04304302995384979,
+      "coverage": 0.9508196721311475,
+      "mean_set_size": 0.9737704918032787,
+      "singleton_fraction": 0.9737704918032787,
+      "singleton_accuracy": 0.9764309764309764
+    },
+    "0.1": {
+      "alpha": 0.1,
+      "qhat": 0.021832601853306932,
+      "coverage": 0.9131147540983606,
+      "mean_set_size": 0.9278688524590164,
+      "singleton_fraction": 0.9278688524590164,
+      "singleton_accuracy": 0.9840989399293286
+    }
+  }
+}

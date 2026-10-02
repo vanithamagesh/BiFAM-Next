@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "BiFAM-Next: A Mask-Supervised ConvNeXt-V2 U-Net Transformer with Bilinear Fusion of Dual Attention Skips for Brain MRI Tumor Classification"
+authors:
+  - family-names: Vanitha
+    given-names: V.
+  - family-names: Srivani
+    given-names: M.
+  - family-names: Arulkumaran
+    given-names: G.
+  - family-names: Bhasker
+    given-names: B.
+  - family-names: Geman
+    given-names: Oana
+  - family-names: Burlacu
+    given-names: Alexandru
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-02"

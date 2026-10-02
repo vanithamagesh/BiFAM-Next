@@ -1,0 +1,13 @@
+# Install PyTorch with CUDA first (see README_local.md), then: pip install -r requirements.txt
+torch>=2.1
+torchvision>=0.16
+timm>=0.9.12
+numpy
+scipy
+pandas
+scikit-learn
+Pillow
+h5py
+SimpleITK
+matplotlib
+kagglehub

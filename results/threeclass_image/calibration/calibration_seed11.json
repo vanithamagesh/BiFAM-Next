@@ -1,0 +1,41 @@
+{
+  "task": "threeclass_image",
+  "unit": "image",
+  "n_cal": 246,
+  "n_test": 613,
+  "temperature": 0.04473864287137985,
+  "ece_before": 0.06236421451876017,
+  "ece_after": 0.016585005301213197,
+  "selective": {
+    "accuracy_at_100pct_coverage": 0.9836867862969005,
+    "accuracy_at_95pct_coverage": 0.9845360824742269,
+    "accuracy_at_90pct_coverage": 0.9855072463768116,
+    "accuracy_at_80pct_coverage": 0.9836734693877551
+  },
+  "conformal": {
+    "0.01": {
+      "alpha": 0.01,
+      "qhat": 0.5606688767096983,
+      "coverage": 0.9836867862969005,
+      "mean_set_size": 1.0,
+      "singleton_fraction": 1.0,
+      "singleton_accuracy": 0.9836867862969005
+    },
+    "0.05": {
+      "alpha": 0.05,
+      "qhat": 0.0,
+      "coverage": 0.9804241435562806,
+      "mean_set_size": 0.9951060358890701,
+      "singleton_fraction": 0.9951060358890701,
+      "singleton_accuracy": 0.9852459016393442
+    },
+    "0.1": {
+      "alpha": 0.1,
+      "qhat": 0.0,
+      "coverage": 0.9804241435562806,
+      "mean_set_size": 0.9951060358890701,
+      "singleton_fraction": 0.9951060358890701,
+      "singleton_accuracy": 0.9852459016393442
+    }
+  }
+}

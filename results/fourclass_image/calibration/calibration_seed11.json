@@ -1,0 +1,41 @@
+{
+  "task": "fourclass_image",
+  "unit": "image",
+  "n_cal": 304,
+  "n_test": 759,
+  "temperature": 0.5906241536140442,
+  "ece_before": 0.07339873657443992,
+  "ece_after": 0.004164569926246158,
+  "selective": {
+    "accuracy_at_100pct_coverage": 0.994729907773386,
+    "accuracy_at_95pct_coverage": 0.9958391123439667,
+    "accuracy_at_90pct_coverage": 0.9956076134699854,
+    "accuracy_at_80pct_coverage": 0.9967051070840197
+  },
+  "conformal": {
+    "0.01": {
+      "alpha": 0.01,
+      "qhat": 0.9975630447512356,
+      "coverage": 0.9960474308300395,
+      "mean_set_size": 1.1172595520421607,
+      "singleton_fraction": 0.9143610013175231,
+      "singleton_accuracy": 0.9956772334293948
+    },
+    "0.05": {
+      "alpha": 0.05,
+      "qhat": 0.006910706753228357,
+      "coverage": 0.9538866930171278,
+      "mean_set_size": 0.9578392621870883,
+      "singleton_fraction": 0.9578392621870883,
+      "singleton_accuracy": 0.9958734525447043
+    },
+    "0.1": {
+      "alpha": 0.1,
+      "qhat": 0.006702775093564428,
+      "coverage": 0.9090909090909091,
+      "mean_set_size": 0.9130434782608695,
+      "singleton_fraction": 0.9130434782608695,
+      "singleton_accuracy": 0.9956709956709957
+    }
+  }
+}

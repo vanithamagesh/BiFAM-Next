@@ -1,0 +1,25 @@
+{
+  "task": "threeclass_patient",
+  "model": "bifamlite",
+  "model_cfg": {
+    "num_outputs": 3,
+    "img_size": 384,
+    "pretrained": true,
+    "fusion": "bifam",
+    "use_ca": true,
+    "use_ag": true,
+    "head": "vit",
+    "seg_head": true,
+    "backbone": "convnextv2_nano.fcmae_ft_in22k_in1k"
+  },
+  "train_cfg": {
+    "epochs": 30,
+    "batch": 16,
+    "workers": 2,
+    "tta": 1,
+    "patience": 10
+  },
+  "seeds": [
+    11
+  ]
+}
