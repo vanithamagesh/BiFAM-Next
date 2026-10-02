@@ -3,7 +3,7 @@
 Code, result files and figures for the paper
 
 > **BiFAM-Next: A Mask-Supervised ConvNeXt-V2 U-Net Transformer with Bilinear Fusion of Dual Attention Skips for Brain MRI Tumor Classification**
-> V. Vanitha, M. Srivani, G. Arulkumaran, B. Bhasker, Oana Geman, Alexandru Burlacu (manuscript submitted).
+> V. Vanitha, M. Srivani (manuscript submitted).
 
 BiFAM-Next is a brain-tumor MRI classifier. A ConvNeXt-V2-Nano encoder and a pyramid pooling bottleneck feed a U-Net decoder. In this decoder, a Bilinear Feature Aggregation Module (BiFAM) fuses a channel-attended and an attention-gated version of each skip feature, and a six-layer transformer reads tokens taken directly from the decoder map. During training only, expert tumor masks supervise an auxiliary segmentation head and the BiFAM map, so the attention follows the tumor at no extra cost at inference. The network has 21.7 M parameters and needs 9.9 GMAC per 384 × 384 slice.
 
